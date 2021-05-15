@@ -49,6 +49,6 @@ public class CloudGatewayApplication {
         logger.info("Total free memory: " + format.format((freeMemory + (maxMemory - allocatedMemory)) / mb) + mega);
         logger.info("Heap Memory Usage: " + ManagementFactory.getMemoryMXBean().getHeapMemoryUsage());
         logger.info("Non-Heap Memory Usage: " + ManagementFactory.getMemoryMXBean().getNonHeapMemoryUsage());
-        logger.info("=================================================================\n");
+        logger.info("test=================================================================\n");
     }
 }
