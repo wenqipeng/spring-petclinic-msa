@@ -39,7 +39,7 @@ public class CloudGatewayApplication {
         logger.info("Operating system: " + System.getProperty("os.name") + " " + System.getProperty("os.version"));
         logger.info("CPU Cores: " + availableCores);
         if (physicalMemory != -1L) {
-            logger.info("Physical Memory: " + format.format(physicalMemory / mb) + mega);
+            logger.info("Physical Memory: 11111" + format.format(physicalMemory / mb) + mega);
         }
         logger.info("========================== JVM Memory Info ==========================");
         logger.info("Max allowed memory: " + format.format(maxMemory / mb) + mega);
